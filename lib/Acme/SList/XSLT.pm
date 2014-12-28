@@ -3,8 +3,6 @@ package Acme::SList::XSLT;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
-
 my ($mod_xslt, $mod_xml);
 
 eval{
