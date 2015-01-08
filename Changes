@@ -1,5 +1,12 @@
 Revision history for Acme-SList-XSLT
 
+0.04 - 2015-01-08T19:40:22+01:00
+
+  [BUGFIX]
+
+  - The test used to be use_ok("Acme::SList::Utilities"), which obviously was wrong.
+    The test must, of course, be use_ok("Acme::SList::XSLT")
+
 0.03 - 2014-12-28T09:24:30+01:00
 
   [DOCUMENTATION]
